@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header starts  */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 0 30px;
+    height: 8vh;
+}
+
+#header-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    width: 180px;
+}
+
+#header-logo p {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#header-logo p:hover {
+    color: rgb(0, 255, 0);
+    transition: 0.5s ease;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: rgb(0, 255, 0);
+    transition: 0.5s ease;
+}
+
+/* header ends  */
+
+
+/* hero section starts  */
+#hero {
+    background-color: #ff0a54;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.hero-img {
+    padding-top: 3%;
+    padding-left: 12%;
+}
+
+.hero-content {
+    padding-top: 25%;
+    color: white;
+    margin-left: 25px;
+}
+
+.hero-text {
+    font-size: 50px;
+}
+
+.hero-btn {
+    margin-top: 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.hero-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* hero section end  */
+
+
+/* page-2 starts  */
+#pg-2 {
+    padding-bottom: 5vh;
+}
+
+.pg2-icons {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.pg2-heading {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.pg2-content {
+    text-align: center;
+}
+
+/* page-2 ends  */
+
+
+/* page-3 starts  */
+#pg-3 {
+    background-color: #ff0a54;
+    padding: 70px;
+}
+
+#pg-3 p {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+/* page-3 ends  */
+
+
+/* page-4 starts  */
+#pg-4 {
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.dropbox {
+    width: 100vh;
+}
+
+.dropbtn p {
+    color: black;
+}
+
+.dropbtn i {
+    text-align: right;
+    color: black;
+}
+
+.dropbtn {
+    width: 100%;
+    display: block;
+    text-align: left;
+    border: none;
+    color: grey;
+    border-bottom-style: solid;
+    border-radius: 0;
+    font-size: 30px;
+}
+
+.dropbtn:last-child {
+    border: none;
+}
+
+/* page-4 ends  */
+
+/* page-5 starts  */
+#pg-5 {
+    background-color: #ff0a54;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#pg-5 h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#pg-5 button {
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+#pg-5 button:hover {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+/* page-5 ends  */
+
+/* footer starts  */
+#pg-6 {
+    background-color: black;
+    padding: 30px;
+}
+
+#pg-6 .footer-head {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#pg-6 .footer-head h4 {
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+#pg-6 h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+#pg-6 h4 a:hover {
+    color: #ff0a54;
+}
+
+.pg6-content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.pg6-content h5 {
+    color: white;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+}
+
+.col a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.col a:hover {
+    color: #ff0a54;
+}
+
+.col i {
+    color: white;
+    margin-right: 5px;
+}
+
+.col i:hover {
+    color: #ff0a54;
+}
+
+/* footer ends  */
+
+
+@media (max-width:980px){
+    #hero {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-img {
+        width: 100%;
+        text-align: center;
+        padding-top: 3%;
+    }
+
+    .hero-content {
+        padding-top: 8%;
+        padding-bottom: 15px;
+        color: white;
+        margin-left: 25px;
+    }
+
+    .pg2-icons {
+        flex-wrap: wrap;
+    }
+}
